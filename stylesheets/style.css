@@ -1,0 +1,247 @@
+.container {
+  margin: 0 auto;
+  margin-left: 312px;
+  margin-right: 312px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo-nav {
+  display: flex;
+  align-items: center;
+}
+.header-logo-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav ul,
+.footer-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.product-list-title {
+  display: block;
+  color: var(--neutral-900);
+}
+.product-content aside {
+  width: 196px;
+}
+.product-content main {
+  width: 1076px;
+}
+.prodcut-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.product-card {
+  width: calc((100% - 48px) / 3);
+}
+.product-card img {
+  margin-bottom: 12px;
+}
+.product-card h3 {
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: var(--neutral-900);
+}
+/* 分頁樣式 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+.page-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--neutral-900);
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease;
+}
+.page-btn:hover,
+.page-btn:active {
+  background-color: var(--neutral-100);
+  color: var(--neutral-900);
+  border-color: transparent;
+}
+.page-btn.is-current,
+.page-btn.is-current:hover {
+  background-color: var(--primary-300);
+  color: var(--neutral-900);
+}
+.page-arrow {
+  color: var(--neutral-600);
+  font-size: 32px;
+  line-height: 1;
+}
+.page-ellipsis {
+  width: 40px;
+  text-align: center;
+  color: var(--neutral-900);
+}
+/* 分頁樣式結束 */
+.call-to-action {
+  background-color: var(--primary-200);
+  text-align: center;
+  color: var(--neutral-900);
+}
+.call-to-action p {
+  color: var(--neutral-900);
+  display: inline;
+}
+.call-to-action button {
+  color: #fff;
+  border: none;
+  background-color: var(--neutral-900);
+}
+.call-to-action button:hover {
+  background-color: var(--neutral-500);
+}
+
+.footer-logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  background-color: var(--neutral-100);
+}
+.copyright {
+  border-top: 1px solid var(--neutral-300);
+}
+.product-info {
+  display: flex;
+}
+.product-images {
+  max-width: 746px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.product-images img {
+  width: 369px;
+  height: 369px;
+}
+.color-options {
+  display: flex;
+}
+.color-option {
+  width: var(--spacing-64);
+  margin-right: 8px;
+}
+.size-buttons {
+  display: flex;
+  gap: 8px;
+  width: 526px;
+  flex-wrap: wrap;
+}
+.size-button-active {
+  width: 160px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid var(--neutral-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size-button {
+  width: 160px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid var(--neutral-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size-button:hover {
+  border: 1px solid var(--neutral-600);
+}
+.buttons-collect-try-on {
+  display: flex;
+}
+.buttons-collect-try-on button {
+  width: calc((100% - 8px) / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--neutral-900);
+}
+.btn-collect {
+  background-color: var(--neutral-0);
+  color: var(--neutral-900);
+}
+.btn-try-on {
+  background-color: var(--neutral-900);
+  color: var(--neutral-0);
+}
+.btn-collect:hover {
+  background-color: var(--neutral-900);
+  color: var(--neutral-0);
+}
+.btn-try-on:hover {
+  background-color: var(--neutral-0);
+  color: var(--neutral-900);
+}
+.bi-heart,
+.bi-handbag {
+  margin-right: 2px;
+}
+
+.product-accordion {
+  border-top: 1px solid var(--neutral-300);
+}
+/* 手風琴樣式 */
+.accordion-item {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.accordion-trigger {
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  background-color: transparent;
+  color: var(--neutral-900);
+  padding: 16px 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion-trigger:hover {
+  color: var(--neutral-600);
+}
+
+.accordion-panel {
+  padding: 0 4px 16px;
+}
+
+.accordion-panel[hidden] {
+  display: none;
+}
+
+.accordion-panel-inner {
+  color: var(--neutral-600);
+  display: grid;
+  gap: 8px;
+  padding: 0;
+}
+
+.best-seller-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.best-seller-card {
+  width: calc((100% - (24px * 3)) / 4);
+}

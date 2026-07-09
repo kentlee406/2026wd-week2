@@ -1,0 +1,751 @@
+/* settings.css 設定邊界、顏色與字體大小 */
+body {
+  --primary-100: #f5fee7;
+  --primary-200: #e8fece;
+  --primary-300: #c0fa73;
+  --primary-400: #57a203;
+  --primary-500: #477a11;
+  --neutral-0: #ffffff;
+  --neutral-100: #f8f9fa;
+  --neutral-200: #e9ecef;
+  --neutral-300: #dee2e6;
+  --neutral-400: #ced4da;
+  --neutral-500: #adb5bd;
+  --neutral-600: #6c757d;
+  --neutral-700: #495057;
+  --neutral-800: #343a40;
+  --neutral-900: #212529;
+  --space4: 4px;
+  --space8: 8px;
+  --space12: 12px;
+  --space16: 16px;
+  --space24: 24px;
+  --space32: 32px;
+  --space48: 48px;
+  --space56: 56px;
+  --space64: 64px;
+  --space80: 80px;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.ff-Mina {
+  font-family: "Mina", sans-serif;
+}
+.disabled {
+  opacity: 40%;
+  pointer-events: none;
+}
+.h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.h4 {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.h5 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.h6 {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.p-lg {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+.p-md {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+.p-sm {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+.p-xs {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #212529;
+}
+a:hover,
+a:active {
+  border: 1px solid var(--primary-400);
+  color: var(--primary-400);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.p-center {
+  text-align: center;
+}
+.text-del {
+  text-decoration: line-through;
+}
+/* --- Font Weight 系統 --- */
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.cr-p100 {
+  color: var(--primary-100);
+}
+.cr-p200 {
+  color: var(--primary-200);
+}
+.cr-p300 {
+  color: var(--primary-300);
+}
+.cr-p400 {
+  color: var(--primary-400);
+}
+.cr-p500 {
+  color: var(--primary-500);
+}
+.cr-d300 {
+  color: #d74f4f;
+}
+.cr-n0 {
+  color: var(--neutral-0);
+}
+.cr-n100 {
+  color: var(--neutral-100);
+}
+.cr-n200 {
+  color: var(--neutral-200);
+}
+.cr-n300 {
+  color: var(--neutral-300);
+}
+.cr-n400 {
+  color: var(--neutral-400);
+}
+.cr-n500 {
+  color: var(--neutral-500);
+}
+.cr-n600 {
+  color: var(--neutral-600);
+}
+.cr-n700 {
+  color: var(--neutral-700);
+}
+.cr-n800 {
+  color: var(--neutral-800);
+}
+.cr-n900 {
+  color: var(--neutral-900);
+}
+.bg-p100 {
+  background-color: var(--primary-100);
+}
+.bg-p200 {
+  background-color: var(--primary-200);
+}
+.bg-p300 {
+  background-color: var(--primary-300);
+}
+.bg-p400 {
+  background-color: var(--primary-400);
+}
+.bg-p500 {
+  background-color: var(--primary-500);
+}
+.bg-n0 {
+  background-color: var(--neutral-0);
+}
+.bg-n100 {
+  background-color: var(--neutral-100);
+}
+.bg-n200 {
+  background-color: var(--neutral-200);
+}
+.bg-n300 {
+  background-color: var(--neutral-300);
+}
+.bg-n400 {
+  background-color: var(--neutral-400);
+}
+.bg-n500 {
+  background-color: var(--neutral-500);
+}
+.bg-n600 {
+  background-color: var(--neutral-600);
+}
+.bg-n700 {
+  background-color: var(--neutral-700);
+}
+.bg-n800 {
+  background-color: var(--neutral-800);
+}
+.bg-n900 {
+  background-color: var(--neutral-900);
+}
+.bg-f1f3f7 {
+  background-color: #f1f3f7;
+}
+/* --- Space 4 系統 --- */
+.mt-4 {
+  margin-top: var(--space4);
+}
+.mb-4 {
+  margin-bottom: var(--space4);
+}
+.ml-4 {
+  margin-left: var(--space4);
+}
+.mr-4 {
+  margin-right: var(--space4);
+}
+
+.pt-4 {
+  padding-top: var(--space4);
+}
+.pb-4 {
+  padding-bottom: var(--space4);
+}
+.pl-4 {
+  padding-left: var(--space4);
+}
+.pr-4 {
+  padding-right: var(--space4);
+}
+
+/* 縮寫 X 軸與 Y 軸 */
+.mx-4 {
+  margin-left: var(--space4);
+  margin-right: var(--space4);
+}
+.my-4 {
+  margin-top: var(--space4);
+  margin-bottom: var(--space4);
+}
+.px-4 {
+  padding-left: var(--space4);
+  padding-right: var(--space4);
+}
+.py-4 {
+  padding-top: var(--space4);
+  padding-bottom: var(--space4);
+}
+
+/* 四週全包 */
+.m-4 {
+  margin: var(--space4);
+}
+.p-4 {
+  padding: var(--space4);
+}
+
+/* --- Space 8 系統 --- */
+.mt-8 {
+  margin-top: var(--space8);
+}
+.mb-8 {
+  margin-bottom: var(--space8);
+}
+.ml-8 {
+  margin-left: var(--space8);
+}
+.mr-8 {
+  margin-right: var(--space8);
+}
+
+.pt-8 {
+  padding-top: var(--space8);
+}
+.pb-8 {
+  padding-bottom: var(--space8);
+}
+.pl-8 {
+  padding-left: var(--space8);
+}
+.pr-8 {
+  padding-right: var(--space8);
+}
+
+.mx-8 {
+  margin-left: var(--space8);
+  margin-right: var(--space8);
+}
+.my-8 {
+  margin-top: var(--space8);
+  margin-bottom: var(--space8);
+}
+.px-8 {
+  padding-left: var(--space8);
+  padding-right: var(--space8);
+}
+.py-8 {
+  padding-top: var(--space8);
+  padding-bottom: var(--space8);
+}
+
+.m-8 {
+  margin: var(--space8);
+}
+.p-8 {
+  padding: var(--space8);
+}
+.py-9point5 {
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+}
+
+/* --- Space 12 系統 --- */
+.mt-12 {
+  margin-top: var(--space12);
+}
+.mb-12 {
+  margin-bottom: var(--space12);
+}
+.ml-12 {
+  margin-left: var(--space12);
+}
+.mr-12 {
+  margin-right: var(--space12);
+}
+
+.pt-12 {
+  padding-top: var(--space12);
+}
+.pb-12 {
+  padding-bottom: var(--space12);
+}
+.pl-12 {
+  padding-left: var(--space12);
+}
+.pr-12 {
+  padding-right: var(--space12);
+}
+
+.mx-12 {
+  margin-left: var(--space12);
+  margin-right: var(--space12);
+}
+.my-12 {
+  margin-top: var(--space12);
+  margin-bottom: var(--space12);
+}
+.px-12 {
+  padding-left: var(--space12);
+  padding-right: var(--space12);
+}
+.py-12 {
+  padding-top: var(--space12);
+  padding-bottom: var(--space12);
+}
+
+.m-12 {
+  margin: var(--space12);
+}
+.p-12 {
+  padding: var(--space12);
+}
+
+/* --- Space 16 系統 --- */
+.mt-16 {
+  margin-top: var(--space16);
+}
+.mb-16 {
+  margin-bottom: var(--space16);
+}
+.ml-16 {
+  margin-left: var(--space16);
+}
+.mr-16 {
+  margin-right: var(--space16);
+}
+
+.pt-16 {
+  padding-top: var(--space16);
+}
+.pb-16 {
+  padding-bottom: var(--space16);
+}
+.pl-16 {
+  padding-left: var(--space16);
+}
+.pr-16 {
+  padding-right: var(--space16);
+}
+
+.mx-16 {
+  margin-left: var(--space16);
+  margin-right: var(--space16);
+}
+.my-16 {
+  margin-top: var(--space16);
+  margin-bottom: var(--space16);
+}
+.px-16 {
+  padding-left: var(--space16);
+  padding-right: var(--space16);
+}
+.py-16 {
+  padding-top: var(--space16);
+  padding-bottom: var(--space16);
+}
+
+.m-16 {
+  margin: var(--space16);
+}
+.p-16 {
+  padding: var(--space16);
+}
+
+/* --- Space 24 系統 --- */
+.mt-24 {
+  margin-top: var(--space24);
+}
+.mb-24 {
+  margin-bottom: var(--space24);
+}
+.ml-24 {
+  margin-left: var(--space24);
+}
+.mr-24 {
+  margin-right: var(--space24);
+}
+
+.pt-24 {
+  padding-top: var(--space24);
+}
+.pb-24 {
+  padding-bottom: var(--space24);
+}
+.pl-24 {
+  padding-left: var(--space24);
+}
+.pr-24 {
+  padding-right: var(--space24);
+}
+
+.mx-24 {
+  margin-left: var(--space24);
+  margin-right: var(--space24);
+}
+.my-24 {
+  margin-top: var(--space24);
+  margin-bottom: var(--space24);
+}
+.px-24 {
+  padding-left: var(--space24);
+  padding-right: var(--space24);
+}
+.py-24 {
+  padding-top: var(--space24);
+  padding-bottom: var(--space24);
+}
+
+.m-24 {
+  margin: var(--space24);
+}
+.p-24 {
+  padding: var(--space24);
+}
+
+/* --- Space 32 系統 --- */
+.mt-32 {
+  margin-top: var(--space32);
+}
+.mb-32 {
+  margin-bottom: var(--space32);
+}
+.ml-32 {
+  margin-left: var(--space32);
+}
+.mr-32 {
+  margin-right: var(--space32);
+}
+
+.pt-32 {
+  padding-top: var(--space32);
+}
+.pb-32 {
+  padding-bottom: var(--space32);
+}
+.pl-32 {
+  padding-left: var(--space32);
+}
+.pr-32 {
+  padding-right: var(--space32);
+}
+
+.mx-32 {
+  margin-left: var(--space32);
+  margin-right: var(--space32);
+}
+.my-32 {
+  margin-top: var(--space32);
+  margin-bottom: var(--space32);
+}
+.px-32 {
+  padding-left: var(--space32);
+  padding-right: var(--space32);
+}
+.py-32 {
+  padding-top: var(--space32);
+  padding-bottom: var(--space32);
+}
+
+.m-32 {
+  margin: var(--space32);
+}
+.p-32 {
+  padding: var(--space32);
+}
+
+/* --- Space 48 系統 --- */
+.mt-48 {
+  margin-top: var(--space48);
+}
+.mb-48 {
+  margin-bottom: var(--space48);
+}
+.ml-48 {
+  margin-left: var(--space48);
+}
+.mr-48 {
+  margin-right: var(--space48);
+}
+
+.pt-48 {
+  padding-top: var(--space48);
+}
+.pb-48 {
+  padding-bottom: var(--space48);
+}
+.pl-48 {
+  padding-left: var(--space48);
+}
+.pr-48 {
+  padding-right: var(--space48);
+}
+
+.mx-48 {
+  margin-left: var(--space48);
+  margin-right: var(--space48);
+}
+.my-48 {
+  margin-top: var(--space48);
+  margin-bottom: var(--space48);
+}
+.px-48 {
+  padding-left: var(--space48);
+  padding-right: var(--space48);
+}
+.py-48 {
+  padding-top: var(--space48);
+  padding-bottom: var(--space48);
+}
+
+.m-48 {
+  margin: var(--space48);
+}
+.p-48 {
+  padding: var(--space48);
+}
+
+/* --- Space 56 系統 --- */
+.mt-56 {
+  margin-top: var(--space56);
+}
+.mb-56 {
+  margin-bottom: var(--space56);
+}
+.ml-56 {
+  margin-left: var(--space56);
+}
+.mr-56 {
+  margin-right: var(--space56);
+}
+
+.pt-56 {
+  padding-top: var(--space56);
+}
+.pb-56 {
+  padding-bottom: var(--space56);
+}
+.pl-56 {
+  padding-left: var(--space56);
+}
+.pr-56 {
+  padding-right: var(--space56);
+}
+
+.mx-56 {
+  margin-left: var(--space56);
+  margin-right: var(--space56);
+}
+.my-56 {
+  margin-top: var(--space56);
+  margin-bottom: var(--space56);
+}
+.px-56 {
+  padding-left: var(--space56);
+  padding-right: var(--space56);
+}
+.py-56 {
+  padding-top: var(--space56);
+  padding-bottom: var(--space56);
+}
+
+.m-56 {
+  margin: var(--space56);
+}
+.p-56 {
+  padding: var(--space56);
+}
+
+/* --- Space 64 系統 --- */
+.mt-64 {
+  margin-top: var(--space64);
+}
+.mb-64 {
+  margin-bottom: var(--space64);
+}
+.ml-64 {
+  margin-left: var(--space64);
+}
+.mr-64 {
+  margin-right: var(--space64);
+}
+
+.pt-64 {
+  padding-top: var(--space64);
+}
+.pb-64 {
+  padding-bottom: var(--space64);
+}
+.pl-64 {
+  padding-left: var(--space64);
+}
+.pr-64 {
+  padding-right: var(--space64);
+}
+
+.mx-64 {
+  margin-left: var(--space64);
+  margin-right: var(--space64);
+}
+.my-64 {
+  margin-top: var(--space64);
+  margin-bottom: var(--space64);
+}
+.px-64 {
+  padding-left: var(--space64);
+  padding-right: var(--space64);
+}
+.py-64 {
+  padding-top: var(--space64);
+  padding-bottom: var(--space64);
+}
+
+.m-64 {
+  margin: var(--space64);
+}
+.p-64 {
+  padding: var(--space64);
+}
+
+/* --- Space 80 系統 --- */
+.mt-80 {
+  margin-top: var(--space80);
+}
+.mb-80 {
+  margin-bottom: var(--space80);
+}
+.ml-80 {
+  margin-left: var(--space80);
+}
+.mr-80 {
+  margin-right: var(--space80);
+}
+
+.pt-80 {
+  padding-top: var(--space80);
+}
+.pb-80 {
+  padding-bottom: var(--space80);
+}
+.pl-80 {
+  padding-left: var(--space80);
+}
+.pr-80 {
+  padding-right: var(--space80);
+}
+
+.mx-80 {
+  margin-left: var(--space80);
+  margin-right: var(--space80);
+}
+.my-80 {
+  margin-top: var(--space80);
+  margin-bottom: var(--space80);
+}
+.px-80 {
+  padding-left: var(--space80);
+  padding-right: var(--space80);
+}
+.py-80 {
+  padding-top: var(--space80);
+  padding-bottom: var(--space80);
+}
+
+.m-80 {
+  margin: var(--space80);
+}
+.p-80 {
+  padding: var(--space80);
+}

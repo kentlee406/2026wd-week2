@@ -4,8 +4,153 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>鞋子電商-產品列表</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/settings.css" />
+
+    <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
   <body>
-    鞋子電商-產品列表
+    <div class="container">
+      <header>
+        <div class="header-logo-nav">
+          <h1 class="d-block ff-Mina fw-700 p-lg px-12 py-8 mr-48">URBNSTEP</h1>
+          <nav class="header-nav">
+            <ul>
+              <li><a href="#" class="py-12">產品列表</a></li>
+              <li><a href="#" class="py-12">品牌故事</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a href="#" class="p-12">
+          <img
+            src="images/person.svg"
+            alt="加入會員"
+            style="height: 24px; width: 24px"
+          />
+        </a>
+      </header>
+    </div>
+    <section class="product-list">
+      <div class="container">
+        <div class="mt-32 mb-24 p-md fw-500">
+          <span class="cr-n600 mr-12">首頁</span>
+          <span class="cr-n300 mr-12">/</span>
+          <span class="cr-n900">所有商品</span>
+        </div>
+        <h2 class="product-list-title h3 my-24 py-7 fw-700">所有商品</h2>
+        <div class="product-content d-flex mr-24">
+          <aside class="mr-24 pr-24">
+            <ul>
+              <li>
+                <a href="#" class="cr-p400 fw-500 py-12 mb-16">所有商品</a>
+              </li>
+              <li><a href="#" class="cr-n900 fw-500 py-12 mb-16">慢跑鞋</a></li>
+              <li><a href="#" class="cr-n900 fw-500 py-12 mb-16">滑板鞋</a></li>
+              <li><a href="#" class="cr-n900 fw-500 py-12 mb-16">厚底鞋</a></li>
+              <li>
+                <a href="#" class="cr-n900 fw-500 py-12 mb-16">
+                  限定 / 聯名企劃
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <main>
+            <ul class="prodcut-cards mb-48">
+              <li class="product-card">
+                <img src="images/product.png" alt="PLATFORM 404" />
+                <h3 class="h6"><a href="#">PLATFORM 404</a></h3>
+                <p class="p-md">NT$2,600</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-1.png" alt="PLATFORM 404" />
+                <h3 class="h6"><a href="#">PLATFORM 404</a></h3>
+                <p class="p-md">NT$2,600</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-2.png" alt="VM001" />
+                <h3 class="h6"><a href="#">VM001</a></h3>
+                <p class="p-md">NT$2,600</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-3.png" alt="Melty Kiss" />
+                <h3 class="h6"><a href="#">Melty Kiss</a></h3>
+                <p class="p-md">NT$4,000</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-4.png" alt="BOOMBLOK" />
+                <h3 class="h6"><a href="#">BOOMBLOK</a></h3>
+                <p class="p-md">NT$3,200</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-5.png" alt="BOOMBLOK" />
+                <h3 class="h6"><a href="#">BOOMBLOK</a></h3>
+                <p class="p-md">NT$3,200</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-6.png" alt="R:UNER" />
+                <h3 class="h6"><a href="#">R:UNER</a></h3>
+                <p class="p-md">NT$4,000</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-7.png" alt="Sugar Snap" />
+                <h3 class="h6"><a href="#">Sugar Snap</a></h3>
+                <p class="p-md">NT$4,000</p>
+              </li>
+              <li class="product-card">
+                <img src="images/product-8.png" alt="Neofoam" />
+                <h3 class="h6"><a href="#">Neofoam</a></h3>
+                <p class="p-md">NT$4,000</p>
+              </li>
+            </ul>
+            <nav class="pagination" aria-label="商品分頁">
+              <a href="#" class="page-btn page-arrow" aria-label="上一頁"
+                >&lsaquo;</a
+              >
+              <a href="#" class="page-btn is-current" aria-current="page">1</a>
+              <a href="#" class="page-btn">2</a>
+              <a href="#" class="page-btn">3</a>
+              <span class="page-ellipsis" aria-hidden="true">...</span>
+              <a href="#" class="page-btn">10</a>
+              <a href="#" class="page-btn page-arrow" aria-label="下一頁"
+                >&rsaquo;</a
+              >
+            </nav>
+          </main>
+        </div>
+      </div>
+    </section>
+    <section class="call-to-action">
+      <p class="h4 fw-700 pr-24">加入會員取得 9 折優惠</p>
+      <button type="button" class="py-12 px-24 my-24">馬上註冊</button>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-logo-nav pt-64 mb-24">
+          <h1 class="d-block ff-Mina fw-700 p-lg px-12 py-8">URBNSTEP</h1>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#" class="py-12">產品列表</a></li>
+              <li><a href="#" class="py-12">品牌故事</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="copyright pt-32">
+          <p class="p-sm p-center mb-4">Copyright ©2025 URBNSTYLE</p>
+          <p class="p-sm p-center">All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
