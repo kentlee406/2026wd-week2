@@ -1,7 +1,6 @@
 .container {
+  max-width: 1296px;
   margin: 0 auto;
-  margin-left: 312px;
-  margin-right: 312px;
 }
 header {
   display: flex;
@@ -163,7 +162,7 @@ footer {
   align-items: center;
 }
 .size-button:hover {
-  border: 1px solid var(--neutral-600);
+  background-color: var(--neutral-100);
 }
 .buttons-collect-try-on {
   display: flex;
@@ -244,4 +243,21 @@ footer {
 }
 .best-seller-card {
   width: calc((100% - (24px * 3)) / 4);
+}
+
+/* logo 需依設計稿加上綠色小圓點 */
+.brand-logo {
+  position: relative;
+  z-index: 1;
+}
+.brand-logo:after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary-300);
+  z-index: -1;
 }
